@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dkwatx0ruyqiw"]
 
 [ext_resource type="Texture2D" uid="uid://m88w8jxy5067" path="res://assets/slime_frames_contact_sheet-removebg-preview.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://btsjf51kwn0t2" path="res://script/player.gd" id="1_g2els"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g2els"]
 atlas = ExtResource("1_3vyb7")
@@ -50,12 +51,14 @@ radius = 16.124516
 
 [node name="player" type="CharacterBody2D" unique_id=754510609]
 position = Vector2(150, 58)
+collision_layer = 2
+script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=605185223]
 sprite_frames = SubResource("SpriteFrames_t47ww")
 animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.15976931
+frame_progress = 0.023938235
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=159999839]
 position = Vector2(3, 13)
