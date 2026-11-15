@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://c7kdlrmbha1om"]
 
 [ext_resource type="Script" uid="uid://d37saq702bbu6" path="res://control.gd" id="1_0fbet"]
+[ext_resource type="Texture2D" uid="uid://cfqjb8lpknb1y" path="res://download (13).jpg" id="2_62e2m"]
 
 [node name="Control" type="Control" unique_id=311353811]
 layout_mode = 3
@@ -9,6 +10,16 @@ offset_right = 40.0
 offset_bottom = 40.0
 scale = Vector2(1.1199998, 1)
 script = ExtResource("1_0fbet")
+
+[node name="ColorRect" type="TextureRect" parent="." unique_id=963598560]
+texture_filter = 1
+layout_mode = 0
+offset_left = 92.85716
+offset_top = 7.999999
+offset_right = 572.8572
+offset_bottom = 368.0
+scale = Vector2(2.211332, 1.8451594)
+texture = ExtResource("2_62e2m")
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=795744616]
 layout_mode = 0
@@ -29,10 +40,11 @@ anchor_left = 15.200001
 anchor_top = 4.1740003
 anchor_right = 15.200001
 anchor_bottom = 4.1740003
-offset_left = -136.0
-offset_top = 95.99799
-offset_right = 160.0
-offset_bottom = 167.99799
+offset_left = -135.14908
+offset_top = 127.12345
+offset_right = 160.85095
+offset_bottom = 199.12344
+scale = Vector2(1.424764, 1.4206811)
 text = "Play
 "
 

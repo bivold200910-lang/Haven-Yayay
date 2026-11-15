@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bp0tbqeqfbuem"
-path="res://.godot/imported/Calming pixel art landscape 2545.jpeg-f32d71ad653c473af256610df4a7ff7c.ctex"
+uid="uid://bb8ei25k6v5pm"
+path="res://.godot/imported/download (1).jpeg-050d5c419eaefc68162f28b78ffa76c7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Calming pixel art landscape 2545.jpeg"
-dest_files=["res://.godot/imported/Calming pixel art landscape 2545.jpeg-f32d71ad653c473af256610df4a7ff7c.ctex"]
+source_file="res://assets/baground/download (1).jpeg"
+dest_files=["res://.godot/imported/download (1).jpeg-050d5c419eaefc68162f28b78ffa76c7.ctex"]
 
 [params]
 
