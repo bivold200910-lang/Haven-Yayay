@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c5ab62cnftrjk"]
+
+[ext_resource type="Texture2D" uid="uid://ctf6j23ktkjmx" path="res://assets/platforms.png" id="1_vv3gn"]
+
+[node name="winning plat" type="Area2D" unique_id=90129946]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=201521317]
+texture = ExtResource("1_vv3gn")
+region_enabled = true
+region_rect = Rect2(17.095367, 31.963573, 31.599747, 12.25687)
