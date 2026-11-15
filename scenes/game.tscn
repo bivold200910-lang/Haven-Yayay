@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://bbdlyo1g88jlh"]
 
+[ext_resource type="Texture2D" uid="uid://bp0tbqeqfbuem" path="res://assets/baground/Calming pixel art landscape 2545.jpeg" id="1_iywne"]
 [ext_resource type="PackedScene" uid="uid://dkwatx0ruyqiw" path="res://scenes/player.tscn" id="1_uwrxv"]
 [ext_resource type="Texture2D" uid="uid://dfqo1v2b5vk3r" path="res://assets/world_tileset.png" id="2_yqjtg"]
 [ext_resource type="PackedScene" uid="uid://p1y8of6n7ppa" path="res://scenes/area_2d.tscn" id="3_lnu2h"]
@@ -183,6 +184,18 @@ distance = -250.63544
 [node name="game" type="Node2D" unique_id=1017132150]
 z_index = -4096
 position = Vector2(530, 406)
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=1831517082]
+scroll_offset = Vector2(-322, -278)
+repeat_size = Vector2(356, 0)
+repeat_times = 5
+
+[node name="Sprite2D" type="Sprite2D" parent="Parallax2D" unique_id=99294000]
+texture_filter = 1
+position = Vector2(166, -22)
+scale = Vector2(0.8875297, 1.1363362)
+texture = ExtResource("1_iywne")
+centered = false
 
 [node name="player" parent="." unique_id=754510609 instance=ExtResource("1_uwrxv")]
 position = Vector2(36, 78)
