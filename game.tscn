@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://384spmua6cy2"]
+
+[ext_resource type="PackedScene" uid="uid://sxeh5qou6d6d" path="res://Player.tscn" id="1_80nbo"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_80nbo"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_g4leu"]
+
+[node name="Node2D" type="Node2D" unique_id=613179147]
+
+[node name="CharacterBody2D" parent="." unique_id=485482390 instance=ExtResource("1_80nbo")]
+position = Vector2(-496, -16)
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1218572819]
+position = Vector2(688, 272.00003)
+scale = Vector2(-6.711052, 2.3328047)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=151910668]
+position = Vector2(152, 344)
+physics_material_override = SubResource("PhysicsMaterial_80nbo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=281112952]
+position = Vector2(16, -8)
+scale = Vector2(1.7175689, 11.297878)
+shape = SubResource("WorldBoundaryShape2D_g4leu")
